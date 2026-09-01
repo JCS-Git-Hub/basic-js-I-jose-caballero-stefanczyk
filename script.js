@@ -10,7 +10,7 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
-
+console.log("Bienvenida/o al bootcamp Femcoders de Factoría F5");
 
 
 //VARIABLES Y TIPOS DE DATOS
@@ -18,28 +18,37 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
-
+let stringVariable = "Texto";
+let numberVariable = 1;
+let booleanVariable = true;
+let nullValue = null;
+let undefinedValue;
+const objectVariable = {firstName:"John", lastName:"Doe"};
+const arrayVariable = ["Item 0", "Item 1", "Item 2"];
+console.log(stringVariable, numberVariable, booleanVariable, nullValue, undefinedValue, objectVariable, arrayVariable);
 
 
 //Ejercicio 3: Crea una constante llamada postres con un tipo de dato array que contiene los siguientes elementos: helado, tarta, pastel e imprímelo en la consola. 
 
 //Escribe tu código aquí
 
-
+const postres = ["helado", "tarta", "pastel"];
+console.log(postres);
 
 
 //Ejercicio 4: Crea una constante con un tipo de dato objeto llamado coder que contengan dos propiedades, nombre y edad e imprímelo en la consola.
 
 //Escribe tu código aquí
 
-
+const coder = {nombre:"José", edad:25};
+console.log(coder);
 
 
 //Ejercicio 5: Busca como imprimir en consola el tipo de dato de cada variable que hemos creado.
 
 //Escribe tu código aquí
 
-
+console.log(typeof stringVariable, typeof numberVariable, typeof booleanVariable, typeof nullValue, typeof undefinedValue, typeof objectVariable, typeof arrayVariable, typeof postres, typeof coder);
 
 
 //OPERADORES ARITMÉTICOS
