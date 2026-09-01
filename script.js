@@ -56,28 +56,32 @@ console.log(typeof stringVariable, typeof numberVariable, typeof booleanVariable
 
 //Escribe tu código aquí
 
-
+let mathProblemSum = 3 + 3;
+console.log(mathProblemSum);
 
 
 //Ejercicio 7: Crea una varible que reste 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
-
+let mathProblemSubtract = 3 - 3;
+console.log(mathProblemSubtract);
 
 
 //Ejercicio 8: Crea una varible que multiplique 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
-
+let mathProblemMultiply = 3 * 3;
+console.log(mathProblemMultiply);
 
 
 //Ejercicio 9: Crea una varible que divida 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
-
+let mathProblemDivide = 3 / 3;
+console.log(mathProblemDivide);
 
 
 //OPERADORES DE COMPARACIÓN
